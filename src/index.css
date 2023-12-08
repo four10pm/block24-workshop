@@ -54,6 +54,33 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+#puppydiv {
+  display: grid;
+  grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
+  grid-column-gap: 5px;
+  padding: 5px;
+}
+
+.puppy {
+  border: double 3px purple;
+  background-color: lavender;
+  color: indigo;
+  padding: 5px; 
+}
+
+.featuredPup {
+  background-color: indigo;
+  color: lavender;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
